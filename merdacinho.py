@@ -1,3 +1,5 @@
+print(' Mercadinho Dois Irmãos ')
+
 mil = valortot = menor = cont = 0
 barato = ''
 while True:
@@ -12,7 +14,7 @@ while True:
         barato = produto
     resp = ' '
     while resp not in 'SN':
-        resp = str(input('Deseja Continuar [S/N] ')).strip().upper()[0]
+        resp = str(input('Mais alguma coisa ? [S/N] ')).strip().upper()[0]
     if resp == 'N':
         break
 print('{:-^40}'.format('FIM DO PROGRAMA'))
