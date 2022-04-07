@@ -1,5 +1,5 @@
 print(' Mercadinho Dois Irmãos ')
-
+print('{:-^40}'.format('Seja Bem vindo '))
 mil = valortot = menor = cont = 0
 barato = ''
 while True:
